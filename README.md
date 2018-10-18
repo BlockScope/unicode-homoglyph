@@ -1,5 +1,7 @@
 # unicode-homoglyph
-Reproduction of -Wunicode-homoglyph when that character is in a haddock comment
+Reproduction of -Wunicode-homoglyph when that character is in a haddock comment.
+
+https://ghc.haskell.org/trac/ghc/ticket/15775#ticket
 
 ```
 unicode-homoglyph> stack runghc -- --interactive Intersect.hs
